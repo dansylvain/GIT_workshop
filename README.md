@@ -86,11 +86,4 @@ Passez à la branche principale et mettez à jour votre copie locale :
 `git switch main  `  
 `git pull origin main  `
 
-## Autres considérations
-* fichier .gitignore
-Un fichier .gitignore liste les fichiers à ne pas inclure au moment de commit.  
-exemple de contenu d'un fichier .gitignore:  
-
-`*.o  
-*.a  
-minishell  `
+`

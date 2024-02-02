@@ -94,3 +94,28 @@ exemple de contenu d'un fichier .gitignore:
 `*.o`  
 `*.a`  
 `minishell`  
+#### Documentation du Code  
+N'hésitez pas à vous mettre d'accord sur une façon de vous laisser des messages dans le code concernant des tâches à effectuer (TODO) et autres remarques.  
+Commentez les changements effectués. Commentez les modifications effectuées / suggestions concernant le code d'un collaborateur, ...  
+
+#### Bonnes Pratiques de Messages de Commit
+- Concision et Clarté :  
+Messages succincts, décrivant clairement l'objectif du commit en une phrase.
+
+- Langage Impératif :  
+Utilisation du langage impératif pour indiquer l'action effectuée par le commit.
+
+- Limitation à une Idée :  
+Chaque commit doit représenter une seule idée ou fonctionnalité pour des changements atomiques.
+es numéros de tâches ou de tickets pour une traçabilité efficace.
+
+- Révision Avant Validation :  
+Relecture du message de commit avant validation pour assurer clarté et précision.
+
+#### Résolution des Conflits :  
+Les conflits peuvent être résols manuellement.  
+Certaines règles peuvent aider à éviter les conflits:  
+- ne jamais travailler en même temps sur le même fichier  
+=> certains fichiers peuvent être dédoublés pour que chacun travaille avec sa version et qu'il n'y ait pas de conflit  
+- enlever le header de 42 des fichiers tant que le fichier n'est pas terminé (une simple modification sauvegarde et change la date => conflit)  
+- toujours se mettre à jour dès qu'un membre de l'équipe à merge un de ses fichiers pour que tous les collaborateurs aient le même code source  

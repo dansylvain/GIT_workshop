@@ -5,7 +5,24 @@ Bienvenue dans notre projet collaboratif ! Nous allons explorer les principes fo
 * Fork du Projet
 Cliquez sur le bouton "Fork" en haut à droite de la page pour créer une copie du projet dans votre compte.
 Clonez votre fork sur votre machine locale avec la commande suivante :  
-`git clone [lien de votre fork]`  
+`git clone [lien de votre fork]`
+
+* Choix d'une fonctionalité à ajouter
+Choisissez une fonction à ajouter à l'application de départ.
+exemples:
+- ft_strlen
+- ft_putchar
+- ft_strcmp
+- ft_strcat
+- ft_strdup
+- ft_split
+- ft_strcpy
+- ft_tolower
+- ft_toupper
+- ft_isalnum
+- ft_isdigit
+- ...
+
 * Ajout d'une Fonctionnalité
 Créez une nouvelle branche pour votre fonctionnalité :  
 

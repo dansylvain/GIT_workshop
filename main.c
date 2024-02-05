@@ -12,3 +12,5 @@ int main(int argc, char **argv)
     printf("ft_split:\n");
 	return (0);
 }
+
+

@@ -1,10 +1,26 @@
+# WIP
+
+Plusieurs axes / notions à intégrer
+
+dans un seul repo
+
+- git checkout pour exploration de l'historique
+
+- git branch et pull request pour travail collaboratif
+
+- git branch et merge sur le meme repo pour travail collaboratif
+
+- commandes git pour le développement en local
+
+créer un repo et ajouter Flo et Nico en collaborateurs
+
 # Projet Collaboratif avec Git
 Bienvenue dans notre projet collaboratif ! Nous allons explorer les principes fondamentaux de la collaboration avec Git. Suivez ces étapes pour ajouter votre contribution.
 
 ## Travail Collaboratif : se mettre d'accord
 Il est possible de configurer et d'utiliser Git de différentes façons, et c'est pourquoi il est capital de se mettre d'accord avec son équipe sur un protocole d'utilisation pour éviter les conflits. Une collaboration harmonieuse dans un projet Git repose sur des directives claires et partagées par toute l'équipe.  
 
-Voici quelques points essentiels à considérer pour établir un protocole de travail collaboratif efficace :
+Voici quelques points essentiels à considérer pour établir un protocole de travail collaboratif efficace :   
 
 1. Stratégie de Branching :  
 Définissez une stratégie de branching qui correspond à la structure de votre projet. Par exemple, utilisez des branches spécifiques pour les fonctionnalités, les correctifs, et les versions stables.  
@@ -85,3 +101,15 @@ Passez à la branche principale et mettez à jour votre copie locale :
 
 `git switch main  `  
 `git pull origin main  `
+
+* d'autres commandes  
+`git checkout  `  
+permet de partir en exporation des commit 
+`git stash  `  
+permet de faire une sauvegarde tempporaore d'un repo dans son état actuel
+`git stash apply ` 
+pour reprendre le boulot où il en était...   
+`git rebase  `  
+
+`git diff  `  
+`git diff  + fichier / commit`  
